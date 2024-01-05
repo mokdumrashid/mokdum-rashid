@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cart</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/cart.css" type="text/css">
+	
+    </head>
+    <body>
+        <div class="layout">
+            <div class="header">
+                <div class="left_header">
+                        <div class="left_header_container">
+                                <a href="index.html">
+									
+									<h1>JS point</h1>
+								</a>
+                        </div>	
+                </div>
+                <div class="right_header">
+                        <div class="right_header_container">
+
+                                
+                                <div class="item_icon">
+									<button class="item_icon2" onclick="item()">
+									<img src="image/item.png" width="60px" height="60px">
+									
+								
+									</button>
+								</div>
+                        </div>
+                </div>
+
+            </div>
+        
+				
+       
+            <div class="row">
+				<div class="ecmrs">
+					<div class="shopping">
+						<p class="name">Intro</p>
+						<p class="price">$0.99</p>
+						<p class="time">Day</p>
+						<button class="item_add" onclick="myFunction()">Upgrade</button>
+						
+					</div>
+					<div class="shopping">
+						<p class="name">Basic</p>
+						<p class="price">$9</p>
+						<p class="time">Week</p>
+						<button class="item_add" onclick="myFunction2()">Upgrade</button>
+						
+					</div>
+					<div class="shopping">
+						<p class="name">Professional</p>
+						<p class="price">$29</p>
+						<p class="time">Month</p>
+						<button class="item_add" onclick="myFunction3()">Upgrade</button>
+						
+					</div>
+					<div class="shopping">
+						<p class="name">Premier</p>
+						<p class="price">$59</p>
+						<p class="time">Year</p>
+						<button class="item_add" onclick="myFunction4()">Upgrade</button>
+						
+					</div>
+					<div class="shopping" id="item">
+						
+						<span id="member">Membership</span>
+						<p class="name2">
+						  
+						  Day:<span id="day">0</span>
+						  Price: <span id="price">0</span>
+						
+						</p>
+						<p class="name2">
+						  
+						  Week:<span id="day2">0</span>
+						  Price: <span id="price2">0</span>
+						
+						</p>
+						<p class="name2">
+						  
+						  Month:<span id="month">0</span>
+						  Price: <span id="price3">0</span>
+						
+						</p>
+						<p class="name2">
+						  
+						  Year:<span id="year">0</span>
+						  Price: <span id="price4">0</span>
+						
+						</p>
+						<hr/>
+						<p class="name2">
+						   Total Price: <span id="total">0</span>
+						</p>
+					</div>
+					
+				</div>
+			
+                    
+            </div>
+                    
+                    
+
+					
+		
+        </div>
+		
+        <script src=js/jquery-3.4.1.min.js></script>
+        <script src=js/slider.js></script>
+        <script src=js/cart.js></script>
+		
+		
+    </body>
+</html>
