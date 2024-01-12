@@ -297,7 +297,7 @@ margin-bottom: 60px; }
 	.btn.btn-fill:hover {
     background-color: #fff;
     color: #2c98f0;
-	border: 2px solid #d7cccc52;
+	border: 2px solid #2c98f0;
 }
   .btn.left-icon .icon {
     margin-right: 15px; }
@@ -2547,12 +2547,16 @@ border-bottom-left-radius: 50%; }
 	
 }
 .footer_icon ul li a:hover {
-	color: #2c98f0;
+	color: #33393cdb;
+	background: white;
+	border: 1px solid #2c98f0;
 }
 .footer_icon ul li a {
 	padding: 7px 10px;
 	border-radius: 3px;
+	border: 1px solid #33393cdb;
 	background: #33393cdb;
+	color: #2c98f0;
 }
 .brder_bottm{
 	height: 50px;
