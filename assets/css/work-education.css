@@ -1,0 +1,36 @@
+.mh-education .mh-education-deatils ul {
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.mh-education .mh-education-deatils ul li {
+    position: relative;
+}
+
+.mh-education .mh-education-deatils ul li:before {	
+	content: "";
+	position: absolute;
+	top: 10px;
+    left: -23px;
+	width: 2px;
+	height: 115px;
+	background: #007a7c;
+}
+
+.mh-education .mh-education-deatils ul li:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #007a7c;
+}
+
+.mh-education-date{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #007a7c !important;
+}
