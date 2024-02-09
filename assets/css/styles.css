@@ -2260,7 +2260,14 @@ body {
 */
 .mh-service .mh-service-item {
   padding: 20px;
-  height: 280px;}
+  height: 280px;
+}
+
+.mh-service-item p {
+  text-align: justify;
+  text-justify: inter-character;
+}
+
 .mh-service .mh-service-item .fa {
 font-size: 30px;
 margin-bottom: 20px;
@@ -2498,10 +2505,6 @@ border-bottom-left-radius: 50%; }
 	color: white;
 }
 
-.carousel-indicators .active{
-    background-color: #2c98f0;
-	
-}
 .carousel-item {
 	transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
