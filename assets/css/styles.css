@@ -1982,8 +1982,8 @@ body {
     .portfolio-nav ul li span {
       padding: 15px 0;
       border-bottom: 2px solid transparent; }
-    .portfolio-nav ul li.current span {
-      border-bottom: 2px solid #2c98f0; }
+     .portfolio-nav ul li.current span {
+      border-bottom: 2px solid #2c98f0; } 
 
 .mh-project-gallery .grid-item figure {
   position: relative;
