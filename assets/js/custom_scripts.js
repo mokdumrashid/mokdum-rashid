@@ -79,7 +79,7 @@
     |Carousel Slider Interval
     |=========================
     */  
-	var words = ['Software Developer|', 'Oracle Apex Developer|', 'Data Analyst|', 'Database Administrator|'],
+	var words = ['Senior Oracle APEX Developer |', 'Oracle Certified Professional (OCP) |', 'PL/SQL Expert |', 'Oracle EBS & Forms/Reports |', 'RPA Developer |','Enterprise Integration |', 'Database Administrator |'],
 		part,
 		i = 0,
 		offset = 0,
